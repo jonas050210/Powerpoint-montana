@@ -20,3 +20,9 @@ python scripts/build_presentation.py
 - Quiz-Folie: Die vier Lösungen fliegen per Klick einzeln ein.
 - Quellen stehen auf Folie 10, Sprechernotizen auf jeder Folie.
 - Erstellt mit Arena.ai Agent.
+
+## Auftakt (Folien 1–3)
+- Folie 1: weißer Block mit schwarzen Balken am Rand
+- Folie 2: Block wird USA-Karte, Balken werden Staatsgrenzen, dann fliegen 48 Staatsnamen ein
+- Folie 3: Zoom auf Montana, orange, darunter „Präsentation von Jonas“
+- Geodaten: `assets/geo/us-states.json` (PublicaMundi/MappingAPI, MIT)
