@@ -736,7 +736,7 @@ def build():
     set_gradient_bg(s8, "0B1120", "27324A")
     chrome(s8, "04 · Natur", "Glacier National Park", 8)
     stats = [("1910", "Gründung des Nationalparks"),
-             ("26", "benannte Gletscher (um 1850 waren es rund 150)"),
+             ("26", "benannte Gletscher (um 1850: ca. 150)"),
              ("762", "Seen im Park"),
              ("3.190 m", "höchster Gipfel: Mount Cleveland")]
     tm8 = Timing()
@@ -899,7 +899,7 @@ def build():
         y = 2.1 + i * 1.18
         add_text(s14, 0.7, y, 7.2, 1.0,
                  [{"text": f"FRAGE {i + 1}", "size": 11, "bold": True, "color": TEAL, "space_after": 2},
-                  {"text": q, "size": 17, "bold": True, "color": TXT}],
+                  {"text": q, "size": 15, "bold": True, "color": TXT}],
                  f"Frage{i + 1}", shape=MSO_SHAPE.ROUNDED_RECTANGLE, fill=CARD, margin=0.22, anchor=MSO_ANCHOR.MIDDLE)
         add_text(s14, 8.2, y, 4.45, 1.0,
                  [{"text": "Lösung", "size": 11, "bold": True, "color": BG_DARK, "space_after": 2},
